@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cron": "^1.1.0",
+    "forever": "^0.15.1",
+    "moment": "^2.11.1",
+    "nightmare": "^2.1.6",
+    "node-env-file": "^0.1.8",
+    "slack-node": "^0.1.7",
+    "superstatic": "^4.0.1",
+    "vo": "^1.0.3"
+  },
+  "scripts": {
+    "server": "superstatic",
+    "cron": "node ./cron.js"
+  }
+}
